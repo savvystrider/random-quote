@@ -29,6 +29,7 @@ async function copyQuote() {
   try {
     if (!navigator.clipboard) return;
     await navigator.clipboard.writeText(quote);
+    alert("copied!");
   } catch (error) {
     console.error(error);
   }

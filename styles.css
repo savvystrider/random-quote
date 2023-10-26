@@ -1,0 +1,72 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Outfit, sans-serif;
+    display: grid;
+    height: 100vh;
+    place-items: center;
+    line-height: 1.5;
+    background-color: #111629;
+}
+
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+.quote {
+    font-size: 1.5rem;
+    color: #97A3B6;
+    margin-top: 1em;
+}
+
+.author {
+    font-size: 1rem;
+    color: #E3E8EF;
+}
+
+.label-container span {
+    display: inline-block;
+    font-size: 0.625rem;
+    color: #6466E9;
+    border: 1px solid #6466E9;
+    background-color: transparent;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    margin-right: 1em;
+}
+
+.container {
+    max-width: 80%;
+    width: 38rem;
+    max-height: 29rem;
+    background-color: #20293A;
+    background-image: url(./assets/bg-image-random-quote.svg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    padding: 2.5em 2.5em 3em 2.5em;
+    border-radius: 1em;
+    margin-inline: auto;
+    text-align: center;
+    position: relative;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    cursor: pointer;
+    margin-top: 1em;
+}
