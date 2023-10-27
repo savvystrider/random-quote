@@ -49,13 +49,13 @@ body {
 
 .container {
     max-width: 80%;
-    width: 38rem;
-    max-height: 29rem;
+    width: fit-content;
+    max-height: fit-content;
     background-color: #20293A;
     background-image: url(./assets/bg-image-random-quote.svg);
     background-position: bottom center;
     background-repeat: no-repeat;
-    padding: 2.5em 2.5em 3em 2.5em;
+    padding: 2.5em;
     border-radius: 1em;
     margin-inline: auto;
     text-align: center;
@@ -69,4 +69,14 @@ body {
     gap: 1em;
     cursor: pointer;
     margin-top: 1em;
+    border: 2px solid #20293A;
+    width: fit-content;
+    padding: 0.5em 1em;
+    margin-inline: auto;
+    border-radius: 1em;
+}
+
+.link-icon {
+    border-right: 2px solid #20293A;
+    padding-right: 0.75em;
 }
